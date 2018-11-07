@@ -7,7 +7,7 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
+                    "output": "hotelSurvey",
                     "type": "csv"
                 }
             ],
@@ -17,12 +17,14 @@
     ],
     "nodes": [
         {
-            "name": "clean.R"
+            "assigned_to": "yash",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-11-07 19:37:54",
+    "updated_at": "2018-11-07 20:02:25",
     "url": "https://github.com/fall2018-saltz/ya_assoc9"
 }
