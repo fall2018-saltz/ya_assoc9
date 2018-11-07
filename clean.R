@@ -1,6 +1,6 @@
 
 library(jsonlite)
-hData=fromJSON("hotelSurveySherison.json")
-hData=data.frame(hData)
-str(hData)
-hData
+hotelSurvey=fromJSON("hotelSurveyBarriot.json ")
+hotelSurvey=data.frame(hotelSurvey)
+str(hotelSurvey)
+hotelSurvey
