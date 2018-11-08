@@ -7,3 +7,4 @@ func=function(vec)
     return(vBuckets)
 }
 a=func(hotelSurvey$overallCustSat)
+a
