@@ -28,7 +28,7 @@ func2=function(vec1)
 
 a2=func2(hotelSurvey$guestAge)
 a2
-b2=func2(hotelsurvey$hotelSize)
+b2=func2(hotelSurvey$hotelSize)
 b2
 c2=func2(hotelSurvey$whenBookedTrip)
 c2
