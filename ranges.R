@@ -6,5 +6,5 @@ func=function(vec)
     vBuckets[vec < 7] <- "Low"
     return(vec)
 }
-a=func(overallCustSat)
+a=func(hotelSurvey$overallCustSat)
 a
