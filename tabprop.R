@@ -12,3 +12,4 @@ tab2
 
 #percentage of people in each of categories frot the friendliness 
 pr2=prop.table(tab2) 
+pr2
