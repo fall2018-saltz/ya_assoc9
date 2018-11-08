@@ -13,6 +13,16 @@
             ],
             "source": "clean.R",
             "target": "hotelSurvey.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "hotelSurvey",
+                    "type": "csv"
+                }
+            ],
+            "source": "hotelSurvey.csv",
+            "target": "ranges.R"
         }
     ],
     "nodes": [
@@ -29,6 +39,6 @@
             "name": "ranges.R"
         }
     ],
-    "updated_at": "2018-11-08 01:53:57",
+    "updated_at": "2018-11-08 01:54:15",
     "url": "https://github.com/fall2018-saltz/ya_assoc9"
 }
