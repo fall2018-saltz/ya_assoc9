@@ -15,3 +15,4 @@ c
 d=func(hotelSurvey$hotelFriendly)
 d
 e=func(hotelSurvey$lengthOfStay)
+e
