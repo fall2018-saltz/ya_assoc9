@@ -23,24 +23,6 @@
             ],
             "source": "hotelSurvey.csv",
             "target": "ranges.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "hotelSurvey",
-                    "type": "csv"
-                },
-                {
-                    "input": "a2",
-                    "type": "csv"
-                },
-                {
-                    "input": "d",
-                    "type": "csv"
-                }
-            ],
-            "source": "hotelSurvey.csv",
-            "target": "tabprop.R"
         }
     ],
     "nodes": [
@@ -57,14 +39,8 @@
             "desc": "",
             "name": "ranges.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "tabprop.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 03:12:11",
+    "updated_at": "2018-11-08 03:13:04",
     "url": "https://github.com/fall2018-saltz/ya_assoc9"
 }
