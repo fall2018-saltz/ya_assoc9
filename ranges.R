@@ -26,9 +26,9 @@ func2=function(vec1)
   return(vBuckets2)
 }
 
-a2=vBuckets2Bucket2(hotelSurvey$guestAge)
+a2=vBuckets2(hotelSurvey$guestAge)
 a2
-b2=vBuckets2Bucket2(hotelsurvey$hotelSize)
+b2=vBuckets2(hotelsurvey$hotelSize)
 b2
 c2=vBuckets2(hotelSurvey$whenBookedTrip)
 c2
