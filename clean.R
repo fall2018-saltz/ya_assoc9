@@ -1,4 +1,5 @@
 
+#load the dataset
 library(jsonlite)
 hotelSurvey=fromJSON("hotelSurveyBarriot.json")
 hotelSurvey=data.frame(hotelSurvey)
