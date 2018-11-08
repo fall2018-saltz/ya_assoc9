@@ -32,3 +32,19 @@ b2=func2(hotelSurvey$hotelSize)
 b2
 c2=func2(hotelSurvey$whenBookedTrip)
 c2
+
+
+#count of people in each category for the age
+tab=table(a2)
+tab
+
+#percentage of people in each of categories for the age
+pr1=prop.table(tab) 
+pr1
+#count of people in each category for the friendliness attribute.
+tab2=table(d)
+tab2
+
+#percentage of people in each of categories frot the friendliness 
+pr2=prop.table(tab2) 
+pr2
