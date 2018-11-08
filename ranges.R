@@ -16,3 +16,5 @@ d=func(hotelSurvey$hotelFriendly)
 d
 e=func(hotelSurvey$lengthOfStay)
 e
+
+func2=function(vec)
