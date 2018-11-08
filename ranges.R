@@ -8,3 +8,4 @@ func=function(vec)
 }
 a=func(hotelSurvey$overallCustSat)
 a
+b=func(hotelSurvey$checkInSat)
