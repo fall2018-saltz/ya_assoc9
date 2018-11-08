@@ -27,7 +27,7 @@
         {
             "ports": [
                 {
-                    "input": "hotelSurvey",
+                    "input": "hotelSurvey,a2,d",
                     "type": "csv"
                 }
             ],
@@ -51,10 +51,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "yash",
             "desc": "",
-            "name": "tabprop.R"
+            "name": "tabprop.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 02:52:00",
+    "updated_at": "2018-11-08 03:11:36",
     "url": "https://github.com/fall2018-saltz/ya_assoc9"
 }
