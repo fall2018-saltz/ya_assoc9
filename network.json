@@ -35,10 +35,16 @@
             "name": "hotelSurvey.csv"
         },
         {
+            "assigned_to": "yash",
             "desc": "",
-            "name": "ranges.R"
+            "name": "ranges.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "tabprop.R"
         }
     ],
-    "updated_at": "2018-11-08 01:54:15",
+    "updated_at": "2018-11-08 02:51:49",
     "url": "https://github.com/fall2018-saltz/ya_assoc9"
 }
