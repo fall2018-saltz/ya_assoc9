@@ -27,5 +27,7 @@ func2=function(vec1)
 }
 
 a2=Bucket2(hotelSurvey$guestAge)
+a2
 b2=Bucket2(hotelsurvey$hotelSize)
+b2
 c2=Bucket2(hotelSurvey$whenBookedTrip)
