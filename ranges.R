@@ -18,3 +18,10 @@ e=func(hotelSurvey$lengthOfStay)
 e
 
 func2=function(vec)
+{
+    Q<- quantile(vec, c(0.4, 0.6))
+  vBuckets2<- replicate(length(vec), "Average")
+  vBuckets2[vec<= Q[1]] <- "Low"
+  vBuckets2[vec> Q[2]] <- "High"
+  return(vBuckets2)
+}
