@@ -11,3 +11,5 @@ a
 b=func(hotelSurvey$checkInSat)
 b
 c=func(hotelSurvey$hotelClean)
+c
+d=func(hotelSurvey$hotelFriendly)
