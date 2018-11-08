@@ -21,8 +21,8 @@ func2=function(vec1)
 {
     q=quantile(vec1, c(0.4, 0.6))
   vBuckets2<- replicate(length(vec1), "Average")
-  vBuckets2[vec1<= Q[1]] <- "Low"
-  vBuckets2[vec1> Q[2]] <- "High"
+  vBuckets2[vec1<= q[1]] <- "Low"
+  vBuckets2[vec1> q[2]] <- "High"
   return(vBuckets2)
 }
 
