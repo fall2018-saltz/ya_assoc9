@@ -25,3 +25,7 @@ func2=function(vec1)
   vBuckets2[vec1> Q[2]] <- "High"
   return(vBuckets2)
 }
+
+a2=Bucket2(hotelSurvey$guestAge)
+b2=Bucket2(hotelsurvey$hotelSize)
+c2=Bucket2(hotelSurvey$whenBookedTrip)
