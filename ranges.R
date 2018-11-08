@@ -9,3 +9,5 @@ func=function(vec)
 a=func(hotelSurvey$overallCustSat)
 a
 b=func(hotelSurvey$checkInSat)
+b
+c=func(hotelSurvey$hotelClean)
